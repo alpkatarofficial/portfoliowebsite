@@ -13,7 +13,7 @@ export default function Portfolio() {
         <div className="space-y-8">
           {/* Profile Header */}
           <div className="flex items-center gap-4">
-            <Image src="/placeholder.svg" alt="Profile" width={60} height={60} className="rounded-full" />
+            <Image src="https://media.licdn.com/dms/image/v2/D4D03AQGHWE1pcS6Yyg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1673967642447?e=1758153600&v=beta&t=KeA7Dk2bv0cn0bp7XfRxLAgwF0hJgVSBTRqFVhGE5X8" alt="Profile" width={60} height={60} className="rounded-full" />
             <div>
               <h1 className="text-2xl font-mono">SÜLEYMAN ALP KATAR.</h1>
               <p className="text-gray-400">Budding Data Analyst</p>
@@ -34,12 +34,12 @@ export default function Portfolio() {
           {/* Social Links */}
           <div className="space-y-4">
               <Button variant="ghost" size="icon" asChild>
-                <Link href="#">
+                <Link href="https://www.linkedin.com/in/s-alp-katar/">
                   <Linkedin className="w-5 h-5" />
                 </Link>
               </Button>
               <Button variant="ghost" size="icon" asChild>
-                <Link href="https://www.linkedin.com/in/s-alp-katar/">
+                <Link href="#">
                   <Youtube className="w-5 h-5" />
                 </Link>
               </Button>
