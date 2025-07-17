@@ -33,6 +33,7 @@ export default function Portfolio() {
 
           {/* Social Links */}
           <div className="space-y-4">
+            <div className="flex gap-4">
               <Button variant="ghost" size="icon" asChild>
                 <Link href="https://www.linkedin.com/in/s-alp-katar/">
                   <Linkedin className="w-5 h-5" />
@@ -51,7 +52,6 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
-
         {/* Right Content */}
         <div className="space-y-8">
           {/* Menu Button - Only show on mobile */}
@@ -64,7 +64,7 @@ export default function Portfolio() {
           {/* Projects Section */}
           <section>
             <div className="flex justify-between items-center mb-4">
-              <h2 className="text-2xl font-mono">My Projects</h2>
+              <h2 className="text-2xl font-mono">My Portfolio Projects</h2>
               <Button variant="ghost" size="icon">
                 <span className="sr-only">View all projects</span>→
               </Button>
