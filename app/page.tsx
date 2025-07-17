@@ -15,17 +15,16 @@ export default function Portfolio() {
           <div className="flex items-center gap-4">
             <Image src="/placeholder.svg" alt="Profile" width={60} height={60} className="rounded-full" />
             <div>
-              <h1 className="text-2xl font-mono">TONY B.</h1>
-              <p className="text-gray-400">PRODUCT DESIGNER</p>
+              <h1 className="text-2xl font-mono">SÜLEYMAN ALP KATAR.</h1>
+              <p className="text-gray-400">Budding Data Analyst</p>
             </div>
           </div>
 
           {/* Bio */}
           <div className="space-y-6">
             <p className="text-gray-300 text-lg leading-relaxed">
-              I specialize in crafting visually striking and user-friendly digital experiences. With a passion for
-              blending aesthetics and functionality, I bring ideas to life, creating innovative solutions in the dynamic
-              world of web design.
+              I specialize managing web projects in my company. With a passion for
+              data around me, statistics and curiosity, I also got into the analyzing data and extracting meaningful results from them.
             </p>
             <Button variant="outline" className="rounded-full">
               More about Me
@@ -34,19 +33,13 @@ export default function Portfolio() {
 
           {/* Social Links */}
           <div className="space-y-4">
-            <div className="flex gap-4">
-              <Button variant="ghost" size="icon" asChild>
-                <Link href="#">
-                  <Twitter className="w-5 h-5" />
-                </Link>
-              </Button>
               <Button variant="ghost" size="icon" asChild>
                 <Link href="#">
                   <Linkedin className="w-5 h-5" />
                 </Link>
               </Button>
               <Button variant="ghost" size="icon" asChild>
-                <Link href="#">
+                <Link href="https://www.linkedin.com/in/s-alp-katar/">
                   <Youtube className="w-5 h-5" />
                 </Link>
               </Button>
@@ -54,12 +47,6 @@ export default function Portfolio() {
             <div className="text-gray-400 text-sm">
               <p>© by UIhub in Framer</p>
               <div className="flex gap-4">
-                <Link href="#" className="hover:text-white">
-                  Licensing
-                </Link>
-                <Link href="#" className="hover:text-white">
-                  404
-                </Link>
               </div>
             </div>
           </div>
