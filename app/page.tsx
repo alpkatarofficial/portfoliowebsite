@@ -68,7 +68,7 @@ export default function Portfolio() {
 
               <div className="transform scale-[.9]">
                 <div className="absolute top-0 w-full text-center text-white font-semibold bg-black/50 py-2">
-                  Title Here
+                  <h3 className="text-2xl font-mono">Title</h3>
                 </div>
                 <div className="relative aspect-square bg-gray-900 rounded-lg overflow-hidden">
                   <Image
