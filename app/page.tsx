@@ -65,11 +65,15 @@ export default function Portfolio() {
               </Button>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              {[1].map((i) => (
-                <div key={i} className="relative aspect-square bg-gray-900 rounded-lg overflow-hidden">
+                <div className="relative aspect-square bg-gray-900 rounded-lg overflow-hidden">
                   <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/findmycarmainpage.png" />
                 </div>
-              ))}
+                <div className="relative aspect-square bg-gray-900 rounded-lg overflow-hidden">
+                  <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/findmycarmainpage.png" />
+                </div>
+                <div className="relative aspect-square bg-gray-900 rounded-lg overflow-hidden">
+                  <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/findmycarmainpage.png" />
+                </div>
             </div>
           </section>
 
