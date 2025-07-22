@@ -86,7 +86,7 @@ export default function Portfolio() {
               </Button>
             </div>
             <div className="flex gap-4">
-                <div key={i} className="w-12 h-12 bg-white rounded-xl" />
+                <div className="w-12 h-12 bg-white rounded-xl" />
             </div>
           </section>
 
