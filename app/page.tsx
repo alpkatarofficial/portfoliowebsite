@@ -15,7 +15,7 @@ export default function Portfolio() {
           <div className="flex items-center gap-4">
             <Image src="https://media.licdn.com/dms/image/v2/D4D03AQGHWE1pcS6Yyg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1673967642447?e=1758153600&v=beta&t=KeA7Dk2bv0cn0bp7XfRxLAgwF0hJgVSBTRqFVhGE5X8" alt="Profile" width={60} height={60} className="rounded-full" />
             <div>
-              <h1 className="text-2xl font-mono">SÜLEYMAN ALP KATAR.</h1>
+              <h1 className="text-2xl font-mono">SÜLEYMAN ALP KATAR</h1>
               <p className="text-gray-400"> - Web Specialist Assistant</p>
               <p className="text-gray-400"> - Budding Data Analyst</p>
             </div>
@@ -27,9 +27,6 @@ export default function Portfolio() {
               I specialize managing websites in my company. With a passion for
               data around me, statistics and curiosity, I also got into the analyzing data and extracting meaningful results from them, uplifting the enterprise value in wherever I work at.
             </p>
-            <Button variant="outline" className="rounded-full">
-              More about Me
-            </Button>
           </div>
 
           {/* Social Links */}
@@ -47,9 +44,6 @@ export default function Portfolio() {
               </Button>
             </div>
             <div className="text-gray-400 text-sm">
-              
-              <div className="flex gap-4">
-              </div>
             </div>
           </div>
         </div>
