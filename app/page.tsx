@@ -78,11 +78,17 @@ export default function Portfolio() {
                   />
                 </div>
               </div>
-              <div className="transform scale-[.9]">
-                <div className="relative aspect-square bg-gray-900 rounded-lg overflow-hidden">
-                  <div className="absolute top-0 w-full text-center text-white font-semibold bg-black/50 py-2">
-                    <h3 className="text-2xl font-mono">Title</h3>
-                  </div>
+
+
+              
+              <div className="relative transform scale-[.9]">
+                {/* Title floating above */}
+                <div className="absolute -top-6 w-full text-center z-10">
+                  <h3 className="text-white text-2xl font-mono">Apriori Market Basket</h3>
+                </div>
+              
+                {/* Image container */}
+                <div className="aspect-square bg-gray-900 rounded-lg overflow-hidden">
                   <Image
                     src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/apriorimarketbasketimage.jpg"
                     alt="Project Title"
@@ -90,6 +96,8 @@ export default function Portfolio() {
                   />
                 </div>
               </div>
+
+              
               <div className="transform scale-[.9]">
                 <div className="relative aspect-square bg-gray-900 rounded-lg overflow-hidden">
                   <div className="absolute top-0 w-full text-center text-white font-semibold bg-black/50 py-2">
