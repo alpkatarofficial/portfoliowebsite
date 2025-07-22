@@ -59,7 +59,7 @@ export default function Portfolio() {
           {/* Projects Section */}
           <section>
             <div className="flex justify-between items-center mb-4">
-              <h2 className="text-2xl font-mono">Portfolio Projects</h2>
+              <h2 className="text-3xl font-mono">Portfolio Projects</h2>
               <Button variant="ghost" size="icon">
                 <span className="sr-only">View all projects</span>→
               </Button>
@@ -81,7 +81,7 @@ export default function Portfolio() {
               <div className="transform scale-[.9]">
                 <div className="relative aspect-square bg-gray-900 rounded-lg overflow-hidden">
                   <div className="absolute top-0 w-full text-center text-white font-semibold bg-black/50 py-2">
-                    Title Here
+                    <h3 className="text-2xl font-mono">Title</h3>
                   </div>
                   <Image
                     src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/apriorimarketbasketimage.jpg"
