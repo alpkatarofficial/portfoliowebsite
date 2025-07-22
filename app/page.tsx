@@ -2,7 +2,7 @@
 
 import Image from "next/image"
 import Link from "next/link"
-import { Menu, Twitter, Linkedin, Youtube } from "lucide-react"
+import { Menu, Github, Linkedin } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export default function Portfolio() {
