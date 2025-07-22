@@ -66,9 +66,9 @@ export default function Portfolio() {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
 
-              <div className="transform scale-[.8]">
+              <div className="transform scale-[.9]">
                 <div className="absolute top-0 w-full text-center text-white font-semibold bg-black/50 py-2">
-                    Title Here
+                  Title Here
                 </div>
                 <div className="relative aspect-square bg-gray-900 rounded-lg overflow-hidden">
                   <Image
@@ -78,7 +78,7 @@ export default function Portfolio() {
                   />
                 </div>
               </div>
-              <div className="transform scale-[.8]">
+              <div className="transform scale-[.9]">
                 <div className="relative aspect-square bg-gray-900 rounded-lg overflow-hidden">
                   <div className="absolute top-0 w-full text-center text-white font-semibold bg-black/50 py-2">
                     Title Here
@@ -90,7 +90,7 @@ export default function Portfolio() {
                   />
                 </div>
               </div>
-              <div className="transform scale-[.8]">
+              <div className="transform scale-[.9]">
                 <div className="relative aspect-square bg-gray-900 rounded-lg overflow-hidden">
                   <div className="absolute top-0 w-full text-center text-white font-semibold bg-black/50 py-2">
                     Title Here
