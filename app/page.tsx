@@ -67,10 +67,10 @@ export default function Portfolio() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
 
               <div className="transform scale-[.8]">
-                <div className="relative aspect-square bg-gray-900 rounded-lg overflow-hidden">
-                  <div className="absolute top-0 w-full text-center text-white font-semibold bg-black/50 py-2">
+                <div className="absolute top-0 w-full text-center text-white font-semibold bg-black/50 py-2">
                     Title Here
-                  </div>
+                </div>
+                <div className="relative aspect-square bg-gray-900 rounded-lg overflow-hidden">
                   <Image
                     src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/findmycarmainpage.png"
                     alt="Project Title"
@@ -78,18 +78,35 @@ export default function Portfolio() {
                   />
                 </div>
               </div>
-              <div className="relative aspect-square bg-gray-900 rounded-lg overflow-hidden">
-                <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/apriorimarketbasketimage.jpg" />
+              <div className="transform scale-[.8]">
+                <div className="relative aspect-square bg-gray-900 rounded-lg overflow-hidden">
+                  <div className="absolute top-0 w-full text-center text-white font-semibold bg-black/50 py-2">
+                    Title Here
+                  </div>
+                  <Image
+                    src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/apriorimarketbasketimage.jpg"
+                    alt="Project Title"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
               </div>
-              
-              <div className="relative aspect-square bg-gray-900 rounded-lg overflow-hidden">
-                <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/bankdatanalysisimage.jpg" />
+              <div className="transform scale-[.8]">
+                <div className="relative aspect-square bg-gray-900 rounded-lg overflow-hidden">
+                  <div className="absolute top-0 w-full text-center text-white font-semibold bg-black/50 py-2">
+                    Title Here
+                  </div>
+                  <Image
+                    src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/bankdatanalysisimage.jpg"
+                    alt="Project Title"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
               </div>
             </div>
           </section>
 
           {/* Stack Section */}
-          <section className="bg-white-600 rounded-xl p-6">
+          <section className="bg-blue-600 rounded-xl p-6">
             <div className="flex justify-between items-center mb-4">
               <h2 className="text-2xl font-mono">My Tech Stack</h2>
               <Button variant="ghost" size="icon" className="text-white"> 
