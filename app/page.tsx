@@ -78,7 +78,7 @@ export default function Portfolio() {
           </section>
 
           {/* Stack Section */}
-          <section className="bg-white-600 rounded-xl p-6">
+          <section>
             <div className="flex justify-between items-center mb-4">
               <h2 className="text-2xl font-mono">My Tech Stack</h2>
               <Button variant="ghost" size="icon" className="text-white"> 
