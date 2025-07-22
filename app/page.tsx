@@ -69,10 +69,10 @@ export default function Portfolio() {
                   <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/findmycarmainpage.png" />
                 </div>
                 <div className="relative aspect-square bg-gray-900 rounded-lg overflow-hidden">
-                  <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/findmycarmainpage.png" />
+                  <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/apriorimarketbasketimage.jpg" />
                 </div>
                 <div className="relative aspect-square bg-gray-900 rounded-lg overflow-hidden">
-                  <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/findmycarmainpage.png" />
+                  <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/bankdatanalysisimage.jpg" />
                 </div>
             </div>
           </section>
