@@ -16,15 +16,16 @@ export default function Portfolio() {
             <Image src="https://media.licdn.com/dms/image/v2/D4D03AQGHWE1pcS6Yyg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1673967642447?e=1758153600&v=beta&t=KeA7Dk2bv0cn0bp7XfRxLAgwF0hJgVSBTRqFVhGE5X8" alt="Profile" width={60} height={60} className="rounded-full" />
             <div>
               <h1 className="text-2xl font-mono">SÜLEYMAN ALP KATAR.</h1>
-              <p className="text-gray-400"> Web Specialist Assistant & Budding Data Analyst</p>
+              <p className="text-gray-400"> - Web Specialist Assistant</p>
+              <p className="text-gray-400"> - Budding Data Analysyt</p>
             </div>
           </div>
 
           {/* Bio */}
           <div className="space-y-6">
             <p className="text-gray-300 text-lg leading-relaxed">
-              I specialize managing web projects in my company. With a passion for
-              data around me, statistics and curiosity, I also got into the analyzing data and extracting meaningful results from them.
+              I specialize managing websites in my company. With a passion for
+              data around me, statistics and curiosity, I also got into the analyzing data and extracting meaningful results from them, uplifting the enterprise value in wherever I work at.
             </p>
             <Button variant="outline" className="rounded-full">
               More about Me
@@ -40,8 +41,8 @@ export default function Portfolio() {
                 </Link>
               </Button>
               <Button variant="ghost" size="icon" asChild>
-                <Link href="#">
-                  <Youtube className="w-5 h-5" />
+                <Link href="https://github.com/alpkatarofficial">
+                  <Github className="w-5 h-5" />
                 </Link>
               </Button>
             </div>
@@ -64,7 +65,7 @@ export default function Portfolio() {
           {/* Projects Section */}
           <section>
             <div className="flex justify-between items-center mb-4">
-              <h2 className="text-2xl font-mono">My Portfolio Projects</h2>
+              <h2 className="text-2xl font-mono">Portfolio Projects</h2>
               <Button variant="ghost" size="icon">
                 <span className="sr-only">View all projects</span>→
               </Button>
