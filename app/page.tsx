@@ -49,12 +49,7 @@ export default function Portfolio() {
         </div>
         {/* Right Content */}
         <div className="space-y-8">
-          {/* Menu Button - Only show on mobile */}
-          <div className="flex justify-end lg:hidden">
-            <Button variant="ghost" size="icon">
-              <Menu className="w-6 h-6" />
-            </Button>
-          </div>
+
 
           {/* Projects Section */}
           <section>
@@ -87,8 +82,8 @@ export default function Portfolio() {
                   <h3 className="text-white text-2xl font-mono">Apriori Market Basket</h3>
                 </div>
               
-                {/* Image container */}
-                <div className="aspect-square bg-gray-900 rounded-lg overflow-hidden">
+                {/* Push this down */}
+                <div className="mt-6 aspect-square bg-gray-900 rounded-lg overflow-hidden">
                   <Image
                     src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/apriorimarketbasketimage.jpg"
                     alt="Project Title"
@@ -96,6 +91,7 @@ export default function Portfolio() {
                   />
                 </div>
               </div>
+
 
               
               <div className="transform scale-[.9]">
