@@ -78,17 +78,15 @@ export default function Portfolio() {
           </section>
 
           {/* Stack Section */}
-          <section className="bg-blue-600 rounded-xl p-6">
+          <section className="bg-white-600 rounded-xl p-6">
             <div className="flex justify-between items-center mb-4">
-              <h2 className="text-2xl font-mono">My Stack</h2>
+              <h2 className="text-2xl font-mono">My Tech Stack</h2>
               <Button variant="ghost" size="icon" className="text-white"> 
                 <span className="sr-only">View all tools</span>
               </Button>
             </div>
             <div className="flex gap-4">
-              {[1, 2, 3, 4, 5, 6, 7, 8].map((i) => (
                 <div key={i} className="w-12 h-12 bg-white rounded-xl" />
-              ))}
             </div>
           </section>
 
