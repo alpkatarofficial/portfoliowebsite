@@ -65,15 +65,26 @@ export default function Portfolio() {
               </Button>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+
+              <div className="transform scale-[.8]">
                 <div className="relative aspect-square bg-gray-900 rounded-lg overflow-hidden">
-                  <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/findmycarmainpage.png" />
+                  <div className="absolute top-0 w-full text-center text-white font-semibold bg-black/50 py-2">
+                    Title Here
+                  </div>
+                  <Image
+                    src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/findmycarmainpage.png"
+                    alt="Project Title"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
-                <div className="relative aspect-square bg-gray-900 rounded-lg overflow-hidden">
-                  <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/apriorimarketbasketimage.jpg" />
-                </div>
-                <div className="relative aspect-square bg-gray-900 rounded-lg overflow-hidden">
-                  <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/bankdatanalysisimage.jpg" />
-                </div>
+              </div>
+              <div className="relative aspect-square bg-gray-900 rounded-lg overflow-hidden">
+                <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/apriorimarketbasketimage.jpg" />
+              </div>
+              
+              <div className="relative aspect-square bg-gray-900 rounded-lg overflow-hidden">
+                <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/bankdatanalysisimage.jpg" />
+              </div>
             </div>
           </section>
 
