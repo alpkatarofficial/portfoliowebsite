@@ -17,7 +17,7 @@ export default function Portfolio() {
             <div>
               <h1 className="text-2xl font-mono">SÜLEYMAN ALP KATAR.</h1>
               <p className="text-gray-400"> - Web Specialist Assistant</p>
-              <p className="text-gray-400"> - Budding Data Analysyt</p>
+              <p className="text-gray-400"> - Budding Data Analyst</p>
             </div>
           </div>
 
@@ -71,7 +71,21 @@ export default function Portfolio() {
               </Button>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              {[1, 2].map((i) => (
+              {[1].map((i) => (
+                <div key={i} className="relative aspect-square bg-gray-900 rounded-lg overflow-hidden">
+                  <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/findmycarmainpage.png" />
+                </div>
+              ))}
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              {[1].map((i) => (
+                <div key={i} className="relative aspect-square bg-gray-900 rounded-lg overflow-hidden">
+                  <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/findmycarmainpage.png" />
+                </div>
+              ))}
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              {[1].map((i) => (
                 <div key={i} className="relative aspect-square bg-gray-900 rounded-lg overflow-hidden">
                   <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/findmycarmainpage.png" />
                 </div>
