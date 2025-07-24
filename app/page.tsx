@@ -138,7 +138,20 @@ export default function Portfolio() {
               <h2 className="text-2xl font-mono">My Tech Stack</h2>
             </div>
             <div className="flex gap-4">
-                <div src="/images/mysql.png" alt="MySQL" className="w-12 h-12 object-contain bg-white p-1 rounded-xl" />
+              <div className="relative w-12 h-12 bg-white rounded-xl p-1">
+                <Image src="/images/mysql.png" alt="MySQL" fill className="object-contain" />
+              </div>
+      
+            </div>
+          </section>
+  
+
+          <section className="bg-blue-600 rounded-xl p-6">
+            <div className="flex justify-between items-center mb-4">
+              <h2 className="text-2xl font-mono text-white">My Tech Stack</h2>
+            </div>
+            <div className="flex gap-4">
+              <img src="/images/mysql.png" alt="React" className="w-12 h-12 object-contain bg-white p-1 rounded-xl" />
             </div>
           </section>
 
