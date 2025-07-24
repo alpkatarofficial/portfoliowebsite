@@ -65,12 +65,12 @@ export default function Portfolio() {
                 <div className="relative transform scale-[.9]">
                   {/* Title floating above */}
                   <div className="absolute -top-6 w-full text-center z-10">
-                    <h3 className="text-white text-xl font-mono">Huge Used Car Database</h3>
+                    <h3 className="text-white text-xl font-mono">Used Car Database</h3>
                   </div>
                   {/* Push this down */}
                   <div className="mt-8 aspect-square bg-gray-900 rounded-lg overflow-hidden">
                     <Image
-                      src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/findmycarmainpage.png"
+                      src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/findmycarmainpage.png"
                       alt="Project Title"
                       className="w-full h-full object-cover"
                     />
@@ -87,7 +87,7 @@ export default function Portfolio() {
                 {/* Push this down */}
                 <div className="mt-8 aspect-square bg-gray-900 rounded-lg overflow-hidden">
                   <Image
-                    src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/apriorimarketbasketimage.jpg"
+                    src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/apriorimarketbasketimage.jpg"
                     alt="Project Title"
                     className="w-full h-full object-cover"
                   />
@@ -102,7 +102,7 @@ export default function Portfolio() {
                 {/* Push this down */}
                 <div className="mt-6 aspect-square bg-gray-900 rounded-lg overflow-hidden">
                   <Image
-                    src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/bankdatanalysisimage.jpg"
+                    src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/bankdatanalysisimage.jpg"
                     alt="Project Title"
                     className="w-full h-full object-cover"
                   />
