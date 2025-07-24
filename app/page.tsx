@@ -62,7 +62,7 @@ export default function Portfolio() {
               <div className="relative">
               {/* Floating title stays still */}
                 <div className="absolute -top-6 w-full text-center z-10">
-                  <h3 className="text-white text-xl font-mono">Used Car Database</h3>
+                  <h3 className="text-white text-l font-mono">Used Car Database</h3>
                 </div>
             
                 {/* Only this moves on hover */}
@@ -85,7 +85,7 @@ export default function Portfolio() {
               <div className="relative">
               {/* Floating title stays still */}
                 <div className="absolute -top-6 w-full text-center z-10">
-                  <h3 className="text-white text-xl font-mono">Apriori Affinity Analysis</h3>
+                  <h3 className="text-white text-l font-mono">Apriori Affinity Analysis</h3>
                 </div>
             
                 {/* Only this moves on hover */}
@@ -108,7 +108,7 @@ export default function Portfolio() {
               <div className="relative">
               {/* Floating title stays still */}
                 <div className="absolute -top-6 w-full text-center z-10">
-                  <h3 className="text-white text-xl font-mono">Bank Data Analysis</h3>
+                  <h3 className="text-white text-l font-mono">Bank Data Analysis</h3>
                 </div>
             
                 {/* Only this moves on hover */}
@@ -142,13 +142,13 @@ export default function Portfolio() {
                 <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/mysql.png" alt="MySQL" fill className="object-contain transition duration-300 ease-in-out hover:-translate-y-1 cursor-pointer" />
               </div>
               <div className="relative w-20 h-20 bg-white rounded-xl p-1">
-                <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/postgresql.png" alt="MySQL" fill className="object-contain transition duration-300 ease-in-out hover:-translate-y-1 cursor-pointer" />
-              </div>
-              <div className="relative w-20 h-20 bg-white rounded-xl p-1">
                 <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/python.png" alt="MySQL" fill className="object-contain transition duration-300 ease-in-out hover:-translate-y-1 cursor-pointer" />
               </div>
               <div className="relative w-20 h-20 bg-white rounded-xl p-1">
                 <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/powerbi.png" alt="MySQL" fill className="object-contain transition duration-300 ease-in-out hover:-translate-y-1 cursor-pointer" />
+              </div>
+              <div className="relative w-20 h-20 bg-white rounded-xl p-1">
+                <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/Microsoft_Office_Excel_(2019%E2%80%93present).svg.png" alt="MySQL" fill className="object-contain transition duration-300 ease-in-out hover:-translate-y-1 cursor-pointer" />
               </div>
               <div className="relative w-20 h-20 bg-white rounded-xl p-1">
                 <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/r.png" alt="MySQL" fill className="object-contain transition duration-300 ease-in-out hover:-translate-y-1 cursor-pointer" />
