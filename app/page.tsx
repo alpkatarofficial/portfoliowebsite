@@ -74,7 +74,7 @@ export default function Portfolio() {
               >
                 <div className="aspect-square bg-gray-900 rounded-lg overflow-hidden shadow-lg">
                   <Image
-                    src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/findmycarmainpage.png"
+                    src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/findmycarmainpage.png"
                     alt="Used Car Database"
                     className="w-full h-full object-cover"
                   />
