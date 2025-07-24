@@ -58,30 +58,31 @@ export default function Portfolio() {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-  
-              <div className="relative transform scale-[.9]">
-                {/* Title floating above */}
-                <div className="absolute -top-6 w-full text-center z-10">
-                  <h3 className="text-white text-xl font-mono">Used Car Database</h3>
-                </div>
-                
-                  {/* Only this part lifts on hover */}
-                <a
-                  href="https://unknown-lauri-alpkatar-d980a23c.koyeb.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="transition duration-300 ease-in-out hover:-translate-y-2 cursor-pointer"
-                >
-                {/* Push this down */}
-                  <div className="mt-8 aspect-square bg-gray-900 rounded-lg overflow-hidden">
-                    <Image
-                      src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/findmycarmainpage.png"
-                      alt="Project Title"
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                </a>
+
+              <div className="relative">
+              {/* Floating title stays still */}
+              <div className="absolute -top-6 w-full text-center z-10">
+                <h3 className="text-white text-xl font-mono">Used Car Database</h3>
               </div>
+            
+              {/* Only this moves on hover */}
+              <a
+                href="https://unknown-lauri-alpkatar-d980a23c.koyeb.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block mt-8 transition duration-300 ease-in-out hover:-translate-y-2 cursor-pointer"
+              >
+                <div className="aspect-square bg-gray-900 rounded-lg overflow-hidden shadow-lg">
+                  <Image
+                    src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/findmycarmainpage.png"
+                    alt="Used Car Database"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              </a>
+            </div>
+  
+              
               
 
               
