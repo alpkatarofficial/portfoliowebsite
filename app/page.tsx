@@ -57,7 +57,7 @@ export default function Portfolio() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <a
-                href="https://your-project-url.com"
+                href="https://unknown-lauri-alpkatar-d980a23c.koyeb.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="transition duration-300 ease-in-out hover:-translate-y-2 cursor-pointer"
