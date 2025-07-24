@@ -70,7 +70,7 @@ export default function Portfolio() {
                 href="https://unknown-lauri-alpkatar-d980a23c.koyeb.app/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block transform scale-[.9] mt-8 transition duration-300 ease-in-out hover:-translate-y-2 cursor-pointer"
+                className="block transform scale-[.9] mt-4 transition duration-300 ease-in-out hover:-translate-y-2 cursor-pointer"
               >
                 <div className="aspect-square bg-gray-900 rounded-lg overflow-hidden shadow-lg">
                   <Image
