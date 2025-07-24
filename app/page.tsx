@@ -130,18 +130,19 @@ export default function Portfolio() {
             </div>
           </section>
 
+          
+
           {/* Stack Section */}
           <section className="bg-blue-600 rounded-xl p-6">
             <div className="flex justify-between items-center mb-4">
               <h2 className="text-2xl font-mono">My Tech Stack</h2>
-              <Button variant="ghost" size="icon" className="text-white"> 
-                <span className="sr-only">View all tools</span>
-              </Button>
             </div>
             <div className="flex gap-4">
-                <div className="w-12 h-12 bg-white rounded-xl" />
+                <div src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/mysql.png" alt="MySQL" className="w-12 h-12 bg-white rounded-xl" />
             </div>
           </section>
+
+          
 
           {/* Contact and Clients Sections */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
