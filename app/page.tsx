@@ -16,8 +16,8 @@ export default function Portfolio() {
             <Image src="https://media.licdn.com/dms/image/v2/D4D03AQGHWE1pcS6Yyg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1673967642447?e=1758153600&v=beta&t=KeA7Dk2bv0cn0bp7XfRxLAgwF0hJgVSBTRqFVhGE5X8" alt="Profile" width={60} height={60} className="rounded-full" />
             <div>
               <h1 className="text-3xl font-mono">SÜLEYMAN ALP KATAR</h1>
-              <p className="text-gray-600"> - Web Specialist Assistant</p>
-              <p className="text-gray-600"> - Budding Data Analyst</p>
+              <p className="text-gray-500"> - Web Specialist Assistant</p>
+              <p className="text-gray-500"> - Budding Data Analyst</p>
             </div>
           </div>
 
@@ -62,7 +62,7 @@ export default function Portfolio() {
               <div className="relative transform scale-[.9]">
                 {/* Title floating above */}
                 <div className="absolute -top-6 w-full text-center z-10">
-                  <h3 className="text-white text-2xl font-mono">Huge Used Car Database</h3>
+                  <h3 className="text-white text-xl font-mono">Huge Used Car Database</h3>
                 </div>
                 {/* Push this down */}
                 <div className="mt-6 aspect-square bg-gray-900 rounded-lg overflow-hidden">
@@ -79,7 +79,7 @@ export default function Portfolio() {
               <div className="relative transform scale-[.9]">
                 {/* Title floating above */}
                 <div className="absolute -top-6 w-full text-center z-10">
-                  <h3 className="text-white text-2xl font-mono">Apriori Market Basket Analysis</h3>
+                  <h3 className="text-white text-xl font-mono">Apriori Market Basket Analysis</h3>
                 </div>
                 {/* Push this down */}
                 <div className="mt-6 aspect-square bg-gray-900 rounded-lg overflow-hidden">
@@ -94,7 +94,7 @@ export default function Portfolio() {
               <div className="relative transform scale-[.9]">
                 {/* Title floating above */}
                 <div className="absolute -top-6 w-full text-center z-10">
-                  <h3 className="text-white text-2xl font-mono">Bank Data Analysis</h3>
+                  <h3 className="text-white text-xl font-mono">Bank Data Analysis</h3>
                 </div>
                 {/* Push this down */}
                 <div className="mt-6 aspect-square bg-gray-900 rounded-lg overflow-hidden">
