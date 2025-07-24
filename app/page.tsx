@@ -141,6 +141,42 @@ export default function Portfolio() {
               <div className="relative w-20 h-20 bg-white rounded-xl p-1">
                 <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/mysql.png" alt="MySQL" fill className="object-contain transition duration-300 ease-in-out hover:-translate-y-1 cursor-pointer" />
               </div>
+              <div className="relative w-20 h-20 bg-white rounded-xl p-1">
+                <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/postgresql.png" alt="MySQL" fill className="object-contain transition duration-300 ease-in-out hover:-translate-y-1 cursor-pointer" />
+              </div>
+              <div className="relative w-20 h-20 bg-white rounded-xl p-1">
+                <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/python.png" alt="MySQL" fill className="object-contain transition duration-300 ease-in-out hover:-translate-y-1 cursor-pointer" />
+              </div>
+              <div className="relative w-20 h-20 bg-white rounded-xl p-1">
+                <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/powerbi.png" alt="MySQL" fill className="object-contain transition duration-300 ease-in-out hover:-translate-y-1 cursor-pointer" />
+              </div>
+              <div className="relative w-20 h-20 bg-white rounded-xl p-1">
+                <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/r.png" alt="MySQL" fill className="object-contain transition duration-300 ease-in-out hover:-translate-y-1 cursor-pointer" />
+              </div>
+              <div className="relative w-20 h-20 bg-white rounded-xl p-1">
+                <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/html.png" alt="MySQL" fill className="object-contain transition duration-300 ease-in-out hover:-translate-y-1 cursor-pointer" />
+              </div>
+              <div className="relative w-20 h-20 bg-white rounded-xl p-1">
+                <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/css.png" alt="MySQL" fill className="object-contain transition duration-300 ease-in-out hover:-translate-y-1 cursor-pointer" />
+              </div>
+              <div className="relative w-20 h-20 bg-white rounded-xl p-1">
+                <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/mysql.png" alt="MySQL" fill className="object-contain transition duration-300 ease-in-out hover:-translate-y-1 cursor-pointer" />
+              </div>
+              <div className="relative w-20 h-20 bg-white rounded-xl p-1">
+                <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/mysql.png" alt="MySQL" fill className="object-contain transition duration-300 ease-in-out hover:-translate-y-1 cursor-pointer" />
+              </div>
+              <div className="relative w-20 h-20 bg-white rounded-xl p-1">
+                <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/mysql.png" alt="MySQL" fill className="object-contain transition duration-300 ease-in-out hover:-translate-y-1 cursor-pointer" />
+              </div>
+              <div className="relative w-20 h-20 bg-white rounded-xl p-1">
+                <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/mysql.png" alt="MySQL" fill className="object-contain transition duration-300 ease-in-out hover:-translate-y-1 cursor-pointer" />
+              </div>
+              <div className="relative w-20 h-20 bg-white rounded-xl p-1">
+                <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/mysql.png" alt="MySQL" fill className="object-contain transition duration-300 ease-in-out hover:-translate-y-1 cursor-pointer" />
+              </div>
+              <div className="relative w-20 h-20 bg-white rounded-xl p-1">
+                <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/mysql.png" alt="MySQL" fill className="object-contain transition duration-300 ease-in-out hover:-translate-y-1 cursor-pointer" />
+              </div>
       
             </div>
           </section>
