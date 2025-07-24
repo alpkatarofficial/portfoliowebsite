@@ -64,7 +64,7 @@ export default function Portfolio() {
               <div className="absolute -top-6 w-full text-center z-10">
                 <h3 className="text-white text-xl font-mono">Used Car Database</h3>
               </div>
-            
+          
               {/* Only this moves on hover */}
               <a
                 href="https://unknown-lauri-alpkatar-d980a23c.koyeb.app/"
@@ -80,46 +80,50 @@ export default function Portfolio() {
                   />
                 </div>
               </a>
-            </div>
-  
-              
-              
 
-              
-              <div className="relative transform scale-[.9]">
-                {/* Title floating above */}
-                <div className="absolute -top-6 w-full text-center z-10">
-                  <h3 className="text-white text-xl font-mono">Apriori Market Basket Analysis</h3>
-                </div>
-                {/* Push this down */}
-                <div className="mt-8 aspect-square bg-gray-900 rounded-lg overflow-hidden">
+              <div className="relative">
+              {/* Floating title stays still */}
+              <div className="absolute -top-6 w-full text-center z-10">
+                <h3 className="text-white text-xl font-mono">Apriori Affinity Analysis</h3>
+              </div>
+          
+              {/* Only this moves on hover */}
+              <a
+                href="www.dksafjdslkf.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block transform scale-[.9] mt-4 transition duration-300 ease-in-out hover:-translate-y-2 cursor-pointer"
+              >
+                <div className="aspect-square bg-gray-900 rounded-lg overflow-hidden shadow-lg">
                   <Image
                     src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/apriorimarketbasketimage.jpg"
-                    alt="Project Title"
+                    alt="Used Car Database"
                     className="w-full h-full object-cover"
                   />
                 </div>
-              </div>
+              </a>
 
-              <div className="relative transform scale-[.9]">
-                {/* Title floating above */}
-                <div className="absolute -top-6 w-full text-center z-10">
-                  <h3 className="text-white text-xl font-mono">Bank Data Analysis</h3>
-                </div>
-                {/* Push this down */}
-                <div className="mt-6 aspect-square bg-gray-900 rounded-lg overflow-hidden">
+              <div className="relative">
+              {/* Floating title stays still */}
+              <div className="absolute -top-6 w-full text-center z-10">
+                <h3 className="text-white text-xl font-mono">Bank Data Analysis</h3>
+              </div>
+          
+              {/* Only this moves on hover */}
+              <a
+                href="www.dksafjdslkf.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block transform scale-[.9] mt-4 transition duration-300 ease-in-out hover:-translate-y-2 cursor-pointer"
+              >
+                <div className="aspect-square bg-gray-900 rounded-lg overflow-hidden shadow-lg">
                   <Image
                     src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/bankdatanalysisimage.jpg"
-                    alt="Project Title"
+                    alt="Used Car Database"
                     className="w-full h-full object-cover"
                   />
                 </div>
-              </div>
-              
-
-              
-      
-              
+              </a>
             </div>
           </section>
 
