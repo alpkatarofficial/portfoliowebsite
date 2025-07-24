@@ -43,8 +43,6 @@ export default function Portfolio() {
                 </Link>
               </Button>
             </div>
-            <div className="text-gray-400 text-sm">
-            </div>
           </div>
         </div>
         {/* Right Content */}
@@ -53,7 +51,7 @@ export default function Portfolio() {
 
           {/* Projects Section */}
           <section>
-            <div className="flex justify-between items-center mb-4">
+            <div className="flex justify-between items-center mb-6">
               <h2 className="text-3xl font-mono">Portfolio Projects</h2>
             </div>
 
@@ -65,7 +63,7 @@ export default function Portfolio() {
                   <h3 className="text-white text-xl font-mono">Huge Used Car Database</h3>
                 </div>
                 {/* Push this down */}
-                <div className="mt-6 aspect-square bg-gray-900 rounded-lg overflow-hidden">
+                <div className="mt-8 aspect-square bg-gray-900 rounded-lg overflow-hidden">
                   <Image
                     src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/findmycarmainpage.png"
                     alt="Project Title"
@@ -82,7 +80,7 @@ export default function Portfolio() {
                   <h3 className="text-white text-xl font-mono">Apriori Market Basket Analysis</h3>
                 </div>
                 {/* Push this down */}
-                <div className="mt-6 aspect-square bg-gray-900 rounded-lg overflow-hidden">
+                <div className="mt-8 aspect-square bg-gray-900 rounded-lg overflow-hidden">
                   <Image
                     src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/apriorimarketbasketimage.jpg"
                     alt="Project Title"
