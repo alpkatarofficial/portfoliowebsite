@@ -60,7 +60,7 @@ export default function Portfolio() {
                 href="https://your-project-url.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block transform scale-[.9] transition duration-300 ease-in-out hover:-translate-y-2 cursor-pointer"
+                className="transition duration-300 ease-in-out hover:-translate-y-2 cursor-pointer"
               >
                 <div className="relative transform scale-[.9]">
                   {/* Title floating above */}
