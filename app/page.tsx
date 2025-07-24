@@ -51,27 +51,32 @@ export default function Portfolio() {
 
           {/* Projects Section */}
           <section>
-            <div className="flex justify-between items-center mb-6">
+            <div className="flex justify-between items-center mb-10">
               <h2 className="text-3xl font-mono">Portfolio Projects</h2>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-
-              <div className="relative transform scale-[.9]">
-                {/* Title floating above */}
-                <div className="absolute -top-6 w-full text-center z-10">
-                  <h3 className="text-white text-xl font-mono">Huge Used Car Database</h3>
+              <a
+                href="https://your-project-url.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block transform scale-[.9] transition duration-300 ease-in-out hover:-translate-y-2 cursor-pointer"
+              >
+                <div className="relative transform scale-[.9]">
+                  {/* Title floating above */}
+                  <div className="absolute -top-6 w-full text-center z-10">
+                    <h3 className="text-white text-xl font-mono">Huge Used Car Database</h3>
+                  </div>
+                  {/* Push this down */}
+                  <div className="mt-8 aspect-square bg-gray-900 rounded-lg overflow-hidden">
+                    <Image
+                      src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/findmycarmainpage.png"
+                      alt="Project Title"
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
                 </div>
-                {/* Push this down */}
-                <div className="mt-8 aspect-square bg-gray-900 rounded-lg overflow-hidden">
-                  <Image
-                    src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/findmycarmainpage.png"
-                    alt="Project Title"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-              </div>
-
+              </a>
 
               
               <div className="relative transform scale-[.9]">
