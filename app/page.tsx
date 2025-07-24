@@ -138,7 +138,7 @@ export default function Portfolio() {
               <h2 className="text-2xl font-mono">My Tech Stack</h2>
             </div>
             <div className="flex gap-4">
-              <div className="relative w-12 h-12 bg-white rounded-xl p-1">
+              <div className="relative w-20 h-20 bg-white rounded-xl p-1">
                 <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/mysql.png" alt="MySQL" fill className="object-contain" />
               </div>
       
