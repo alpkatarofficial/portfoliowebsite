@@ -139,23 +139,12 @@ export default function Portfolio() {
             </div>
             <div className="flex gap-4">
               <div className="relative w-12 h-12 bg-white rounded-xl p-1">
-                <Image src="/images/mysql.png" alt="MySQL" fill className="object-contain" />
+                <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/mysql.png" alt="MySQL" fill className="object-contain" />
               </div>
       
             </div>
           </section>
-  
-
-          <section className="bg-blue-600 rounded-xl p-6">
-            <div className="flex justify-between items-center mb-4">
-              <h2 className="text-2xl font-mono text-white">My Tech Stack</h2>
-            </div>
-            <div className="flex gap-4">
-              <img src="/images/mysql.png" alt="React" className="w-12 h-12 object-contain bg-white p-1 rounded-xl" />
-            </div>
-          </section>
-
-          
+     
 
           {/* Contact and Clients Sections */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
