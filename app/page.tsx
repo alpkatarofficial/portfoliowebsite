@@ -134,7 +134,7 @@ export default function Portfolio() {
 
           {/* Stack Section */}
           <section className="bg-white rounded-xl p-6 text-black">
-            <div className="flex justify-between items-center mb-4">
+            <div className="flex justify-between items-start mb-4">
               <h2 className="text-2xl font-mono">My Tech Stack</h2>
             </div>
             <div className="flex flex-wrap gap-4 justify-center">
@@ -142,34 +142,37 @@ export default function Portfolio() {
                 <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/mysql.png" alt="MySQL" fill className="object-contain transition duration-300 ease-in-out hover:-translate-y-1 cursor-pointer" />
               </div>
               <div className="relative w-20 h-20 bg-white rounded-xl p-1">
-                <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/python.png" alt="MySQL" fill className="object-contain transition duration-300 ease-in-out hover:-translate-y-1 cursor-pointer" />
+                <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/postgresql.png" alt="MySQL" fill className="object-contain transition duration-300 ease-in-out hover:-translate-y-1 cursor-pointer" />
               </div>
               <div className="relative w-20 h-20 bg-white rounded-xl p-1">
-                <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/powerbi.png" alt="MySQL" fill className="object-contain transition duration-300 ease-in-out hover:-translate-y-1 cursor-pointer" />
+                <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/python.png" alt="Python" fill className="object-contain transition duration-300 ease-in-out hover:-translate-y-1 cursor-pointer" />
               </div>
               <div className="relative w-20 h-20 bg-white rounded-xl p-1">
-                <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/Microsoft_Office_Excel_(2019%E2%80%93present).svg.png" alt="MySQL" fill className="object-contain transition duration-300 ease-in-out hover:-translate-y-1 cursor-pointer" />
+                <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/powerbi.png" alt="PowerBI" fill className="object-contain transition duration-300 ease-in-out hover:-translate-y-1 cursor-pointer" />
               </div>
               <div className="relative w-20 h-20 bg-white rounded-xl p-1">
-                <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/r.png" alt="MySQL" fill className="object-contain transition duration-300 ease-in-out hover:-translate-y-1 cursor-pointer" />
+                <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/Microsoft_Office_Excel_(2019%E2%80%93present).svg.png" alt="Microsoft Excel" fill className="object-contain transition duration-300 ease-in-out hover:-translate-y-1 cursor-pointer" />
               </div>
               <div className="relative w-20 h-20 bg-white rounded-xl p-1">
-                <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/html.png" alt="MySQL" fill className="object-contain transition duration-300 ease-in-out hover:-translate-y-1 cursor-pointer" />
+                <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/r.png" alt="R" fill className="object-contain transition duration-300 ease-in-out hover:-translate-y-1 cursor-pointer" />
               </div>
               <div className="relative w-20 h-20 bg-white rounded-xl p-1">
-                <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/css.png" alt="MySQL" fill className="object-contain transition duration-300 ease-in-out hover:-translate-y-1 cursor-pointer" />
+                <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/html.png" alt="HTML5" fill className="object-contain transition duration-300 ease-in-out hover:-translate-y-1 cursor-pointer" />
               </div>
               <div className="relative w-20 h-20 bg-white rounded-xl p-1">
-                <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/Visual_Studio_Code_1.35_icon.svg.png" alt="MySQL" fill className="object-contain transition duration-300 ease-in-out hover:-translate-y-1 cursor-pointer" />
+                <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/css.png" alt="CSS" fill className="object-contain transition duration-300 ease-in-out hover:-translate-y-1 cursor-pointer" />
               </div>
               <div className="relative w-20 h-20 bg-white rounded-xl p-1">
-                <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/Microsoft_Office_PowerPoint_(2019%E2%80%93present).svg.png" alt="MySQL" fill className="object-contain transition duration-300 ease-in-out hover:-translate-y-1 cursor-pointer" />
+                <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/Visual_Studio_Code_1.35_icon.svg.png" alt="Visual Studio Code" fill className="object-contain transition duration-300 ease-in-out hover:-translate-y-1 cursor-pointer" />
               </div>
               <div className="relative w-20 h-20 bg-white rounded-xl p-1">
-                <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/Jupyter_logo.svg.png" alt="MySQL" fill className="object-contain transition duration-300 ease-in-out hover:-translate-y-1 cursor-pointer" />
+                <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/Microsoft_Office_PowerPoint_(2019%E2%80%93present).svg.png" alt="Microsoft PowerPoint" fill className="object-contain transition duration-300 ease-in-out hover:-translate-y-1 cursor-pointer" />
               </div>
               <div className="relative w-20 h-20 bg-white rounded-xl p-1">
-                <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/wordpress.png" alt="MySQL" fill className="object-contain transition duration-300 ease-in-out hover:-translate-y-1 cursor-pointer" />
+                <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/Jupyter_logo.svg.png" alt="Jupyter" fill className="object-contain transition duration-300 ease-in-out hover:-translate-y-1 cursor-pointer" />
+              </div>
+              <div className="relative w-20 h-20 bg-white rounded-xl p-1">
+                <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/wordpress.png" alt="WordPress" fill className="object-contain transition duration-300 ease-in-out hover:-translate-y-1 cursor-pointer" />
               </div>
             </div>
           </section>
