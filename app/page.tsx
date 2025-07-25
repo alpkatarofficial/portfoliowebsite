@@ -47,6 +47,8 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
+
+        
         {/* Right Content */}
         <div className="space-y-8">
 
