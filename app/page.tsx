@@ -92,7 +92,7 @@ export default function Portfolio() {
             
                 {/* Only this moves on hover */}
                 <a
-                  href="www.dksafjdslkf.com"
+                  href="https://github.com/alpkatarofficial/portfoliowebsite/tree/main/Suleyman_Alp_Katar_Apriori_Market_Basket_Analysis_with_Python"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block transform scale-[.9] mt-4 transition duration-300 ease-in-out hover:-translate-y-2 cursor-pointer"
@@ -115,7 +115,7 @@ export default function Portfolio() {
             
                 {/* Only this moves on hover */}
                 <a
-                  href="www.dksafjdslkf.com"
+                  href="https://github.com/alpkatarofficial/portfoliowebsite/tree/main/Suleyman_Alp_Katar_Bank_Data_Analysis_with_Python"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block transform scale-[.9] mt-4 transition duration-300 ease-in-out hover:-translate-y-2 cursor-pointer"
@@ -188,9 +188,9 @@ export default function Portfolio() {
             {/* Contact Section */}
             <section className="relative overflow-hidden rounded-xl bg-gradient-to-br from-gray-900 to-gray-800 p-6">
               <h2 className="text-2xl font-mono mb-4">Contact Me</h2>
-              <Button variant="ghost" size="icon" className="absolute right-4 top-4">
-                <span className="sr-only">Contact me</span>
-              </Button>
+              <p className="text-white-500">Email: alpkatar@linkdijital.com.tr</p>
+              <p className="text-white-500">LinkedIn: linkedin.com/in/s-alp-katar/</p>
+              <p className="text-white-500">Github: https://github.com/alpkatarofficial</p>
             </section>
 
             {/* Happy Clients Section */}
