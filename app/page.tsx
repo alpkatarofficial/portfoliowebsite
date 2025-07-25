@@ -137,7 +137,7 @@ export default function Portfolio() {
             <div className="flex justify-between items-center mb-4">
               <h2 className="text-2xl font-mono">My Tech Stack</h2>
             </div>
-            <div className="flex gap-4">
+            <div className="flex flex-wrap gap-4 justify-center">
               <div className="relative w-20 h-20 bg-white rounded-xl p-1">
                 <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/mysql.png" alt="MySQL" fill className="object-contain transition duration-300 ease-in-out hover:-translate-y-1 cursor-pointer" />
               </div>
@@ -170,7 +170,7 @@ export default function Portfolio() {
               </div>
               <div className="relative w-20 h-20 bg-white rounded-xl p-1">
                 <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/wordpress.png" alt="MySQL" fill className="object-contain transition duration-300 ease-in-out hover:-translate-y-1 cursor-pointer" />
-              </div>>
+              </div>
             </div>
           </section>
      
