@@ -20,9 +20,12 @@ export default function Portfolio() {
               height={300}
               className="rounded-md"
             />
-            <h1 className="text-3xl font-mono text-center">SÜLEYMAN ALP KATAR</h1>
-            <p className="text-gray-500 text-center">- Web Specialist Assistant</p>
-            <p className="text-gray-500 text-center">- Budding Data Analyst</p>
+            <h1 className="text-5xl font-extrabold text-center bg-gradient-to-r from-indigo-400 via-pink-500 to-yellow-400 bg-clip-text text-transparent drop-shadow-lg">
+              SÜLEYMAN ALP KATAR
+            </h1>
+            <p className="text-lg text-center text-blue-200 font-semibold">- Web Specialist Assistant</p>
+            <p className="text-lg text-center text-green-200 font-semibold">- Budding Data Analyst</p>
+
           </div>
 
 
