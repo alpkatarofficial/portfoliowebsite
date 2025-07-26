@@ -13,7 +13,7 @@ export default function Portfolio() {
         <div className="space-y-8">
           {/* Profile Header */}
           <div className="flex items-center gap-4">
-            <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/alpportrait.jpg" alt="Profile" width={300} height={450} className="rounded-md" />
+            <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/alpportrait.jpg" alt="Profile" width={100} height={150} className="flex flex-wrap justify-center rounded-md" />
             <div>
               <h1 className="text-3xl font-mono">SÜLEYMAN ALP KATAR</h1>
               <div></div>
