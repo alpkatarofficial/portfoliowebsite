@@ -13,7 +13,7 @@ export default function Portfolio() {
         <div className="space-y-8">
           {/* Profile Header */}
           <div className="flex items-center gap-4">
-            <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/alpportrait.jpg" alt="Profile" width={150} height={150} className="rounded-md" />
+            <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/alpportrait.jpg" alt="Profile" width={200} height={300} className="rounded-md" />
             <div>
               <h1 className="text-3xl font-mono">SÜLEYMAN ALP KATAR</h1>
               <div></div>
@@ -24,7 +24,7 @@ export default function Portfolio() {
           </div>
 
           {/* Bio */}
-          <div className="space-y-8">
+          <div className="space-y-4">
             <p className="text-gray-300 text-lg leading-relaxed">
               I specialize managing websites in my company. With a passion for
               data around me, statistics and curiosity, I also got into the analyzing data and extracting meaningful results from them, uplifting the enterprise value in wherever I work at.
