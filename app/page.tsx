@@ -16,8 +16,8 @@ export default function Portfolio() {
             <Image
               src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/alpportrait.jpg"
               alt="Profile"
-              width={100}
-              height={150}
+              width={200}
+              height={300}
               className="rounded-md"
             />
             <h1 className="text-3xl font-mono text-center">SÜLEYMAN ALP KATAR</h1>
@@ -35,16 +35,16 @@ export default function Portfolio() {
           </div>
 
           {/* Social Links */}
-          <div className="space-y-4">
+          <div className="flex flex-col items-center space-y-4">
             <div className="flex gap-4">
               <Button variant="ghost" size="icon" asChild>
                 <Link href="https://www.linkedin.com/in/s-alp-katar/">
-                  <Linkedin className="w-5 h-5" />
+                  <Linkedin className="w-10 h-10" />
                 </Link>
               </Button>
               <Button variant="ghost" size="icon" asChild>
                 <Link href="https://github.com/alpkatarofficial">
-                  <Github className="w-5 h-5" />
+                  <Github className="w-10 h-10" />
                 </Link>
               </Button>
             </div>
