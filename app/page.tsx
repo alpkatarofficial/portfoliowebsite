@@ -12,16 +12,19 @@ export default function Portfolio() {
         {/* Left Sidebar */}
         <div className="space-y-8">
           {/* Profile Header */}
-          <div className="flex items-center gap-4">
-            <Image src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/alpportrait.jpg" alt="Profile" width={100} height={150} className="flex flex-wrap justify-center rounded-md" />
-            <div>
-              <h1 className="text-3xl font-mono">SÜLEYMAN ALP KATAR</h1>
-              <div></div>
-              <div></div>
-              <p className="text-gray-500"> - Web Specialist Assistant</p>
-              <p className="text-gray-500"> - Budding Data Analyst</p>
-            </div>
+          <div className="flex flex-col items-center space-y-4">
+            <Image
+              src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/alpportrait.jpg"
+              alt="Profile"
+              width={100}
+              height={150}
+              className="rounded-md"
+            />
+            <h1 className="text-3xl font-mono text-center">SÜLEYMAN ALP KATAR</h1>
+            <p className="text-gray-500 text-center">- Web Specialist Assistant</p>
+            <p className="text-gray-500 text-center">- Budding Data Analyst</p>
           </div>
+
 
           {/* Bio */}
           <div className="space-y-4">
