@@ -50,7 +50,7 @@ export default function Portfolio() {
 
         
         {/* Right Content */}
-        <div className="space-y-8">
+        <div className="space-y-4">
 
 
           {/* Projects Section */}
