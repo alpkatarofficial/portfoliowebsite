@@ -13,7 +13,7 @@ export default function Portfolio() {
         <div className="space-y-8">
           {/* Profile Header */}
           <div className="flex items-center gap-4">
-            <Image src="https://media.licdn.com/dms/image/v2/D4D03AQGHWE1pcS6Yyg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1673967642447?e=1758153600&v=beta&t=KeA7Dk2bv0cn0bp7XfRxLAgwF0hJgVSBTRqFVhGE5X8" alt="Profile" width={60} height={60} className="rounded-full" />
+            <Image src="https://media.licdxdn.com/dms/image/v2/D4D03AQGHWE1pcS6Yyg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1673967642447?e=1758153600&v=beta&t=KeA7Dk2bv0cn0bp7XfRxLAgwF0hJgVSBTRqFVhGE5X8" alt="Profile" width={150} height={150} className="rounded-full" />
             <div>
               <h1 className="text-3xl font-mono">SÜLEYMAN ALP KATAR</h1>
               <div></div>
