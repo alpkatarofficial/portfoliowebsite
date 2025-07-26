@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button"
 export default function Portfolio() {
   return (
     <div className="min-h-screen bg-black text-white p-6">
-      <div className="grid grid-cols-1 lg:grid-cols-[400px_1fr] gap-8">
+      <div className="grid grid-cols-1 lg:grid-cols-[400px_1fr] gap-12">
         {/* Left Sidebar */}
         <div className="space-y-8">
           {/* Profile Header */}
@@ -24,7 +24,7 @@ export default function Portfolio() {
           </div>
 
           {/* Bio */}
-          <div className="space-y-6">
+          <div className="space-y-8">
             <p className="text-gray-300 text-lg leading-relaxed">
               I specialize managing websites in my company. With a passion for
               data around me, statistics and curiosity, I also got into the analyzing data and extracting meaningful results from them, uplifting the enterprise value in wherever I work at.
@@ -50,7 +50,7 @@ export default function Portfolio() {
 
         
         {/* Right Content */}
-        <div className="space-y-4">
+        <div className="space-y-1">
 
 
           {/* Projects Section */}
