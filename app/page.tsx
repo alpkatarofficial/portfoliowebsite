@@ -20,11 +20,11 @@ export default function Portfolio() {
               height={300}
               className="rounded-md"
             />
-            <h1 className="text-3xl font-extrabold text-center bg-gradient-to-r from-gray-200 via-slate-300 to-gray-400 bg-clip-text text-transparent drop-shadow-lg">
+            <h1 className="text-3xl font-extrabold text-center bg-gradient-to-r from-gray-300 via-blue-200 to-gray-400 bg-clip-text text-transparent drop-shadow-lg">
               SÜLEYMAN ALP KATAR
             </h1>
-            <p className="text-lg text-center text-blue-200 font-semibold">- Web Specialist Assistant</p>
-            <p className="text-lg text-center text-green-200 font-semibold">- Budding Data Analyst</p>
+            <p className="text-lg text-center text-gold-200 font-semibold">- Web Specialist Assistant</p>
+            <p className="text-lg text-center text-blue-200 font-semibold">- Budding Data Analyst</p>
 
           </div>
 
@@ -35,6 +35,9 @@ export default function Portfolio() {
               I specialize managing websites in my company. With a passion for
               data around me, statistics and curiosity, I also got into the analyzing data and extracting meaningful results from them, uplifting the enterprise value in wherever I work at.
             </p>
+          </div>
+          <div>
+            <h2 className="text-2xl font-mono">Contact Me</h2>
           </div>
 
           {/* Social Links */}
@@ -193,16 +196,6 @@ export default function Portfolio() {
             </div>
           </section>
      
-
-          {/* Contact and Clients Sections */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {/* Contact Section */}
-            <section className="relative overflow-hidden rounded-xl bg-gradient-to-br from-gray-900 to-gray-800 p-6">
-              <h2 className="text-2xl font-mono mb-4">Contact Me</h2>
-              <p className="text-white-500">Email: alpkatar@linkdijital.com.tr</p>
-              <p className="text-white-500">LinkedIn: linkedin.com/in/s-alp-katar/</p>
-              <p className="text-white-500">Github: https://github.com/alpkatarofficial</p>
-            </section>
 
             {/* Happy Clients Section */}
           </div>
