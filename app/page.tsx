@@ -8,9 +8,9 @@ export default function Portfolio() {
   return (
     <div className="min-h-screen bg-black text-white p-6">
       <div className="grid grid-cols-1 lg:grid-cols-[400px_1fr] gap-12">
-        {/* Left Sidebar */}
+
         <div className="space-y-8">
-          {/* Profile Header */}
+
           <div className="flex flex-col items-center space-y-4">
             <Image
               src="https://raw.githubusercontent.com/alpkatarofficial/portfoliowebsite/refs/heads/main/images/alpportrait.jpg"
@@ -28,14 +28,14 @@ export default function Portfolio() {
           </div>
 
 
-          {/* Bio */}
+          
           <div className="space-y-4">
             <p className="text-gray-300 text-lg leading-relaxed">
               I specialize managing websites in my company. With a passion for
               data around me, statistics and curiosity, I also got into the analyzing data and extracting meaningful results from them, uplifting the enterprise value in wherever I work at.
             </p>
           </div>
-          {/* Social Links */}
+         
           <div className="flex flex-col items-center space-y-4">
             <div>
               <h2 className="text-2xl font-mono">Contact Me</h2>
@@ -139,7 +139,7 @@ export default function Portfolio() {
               </div>
             </div>
           </section>
-          {/* Stack Section */}
+    
           <section className="bg-white rounded-xl p-6 text-black">
             <div className="flex justify-between items-start mb-4">
               <h2 className="text-2xl font-mono">My Tech Stack</h2>
