@@ -23,7 +23,7 @@ export default function Portfolio() {
             <h1 className="text-3xl font-extrabold text-center bg-gradient-to-r from-gray-300 via-blue-200 to-gray-400 bg-clip-text text-transparent drop-shadow-lg">
               SÜLEYMAN ALP KATAR
             </h1>
-            <p className="text-lg text-center text-gold-200 font-semibold">- Web Specialist Assistant</p>
+            <p className="text-lg text-center text-amber-200 font-semibold">- Web Specialist Assistant</p>
             <p className="text-lg text-center text-blue-200 font-semibold">- Budding Data Analyst</p>
 
           </div>
