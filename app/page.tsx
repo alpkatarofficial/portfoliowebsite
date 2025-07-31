@@ -20,7 +20,7 @@ export default function Portfolio() {
               height={300}
               className="rounded-md"
             />
-            <h1 className="text-3xl font-extrabold text-center bg-gradient-to-r from-indigo-400 via-pink-500 to-yellow-400 bg-clip-text text-transparent drop-shadow-lg">
+            <h1 className="text-3xl font-extrabold text-center bg-gradient-to-r from-gray-300 via-gray-100 to-gray-400 bg-clip-text text-transparent drop-shadow-lg">
               SÜLEYMAN ALP KATAR
             </h1>
             <p className="text-lg text-center text-blue-200 font-semibold">- Web Specialist Assistant</p>
@@ -70,7 +70,7 @@ export default function Portfolio() {
               <div className="relative">
               {/* Floating title stays still */}
                 <div className="absolute -top-4 w-full text-center z-10">
-                  <h3 className="text-white text-l font-mono">Used Car Database</h3>
+                  <h3 className="text-white text-l font-mono">Used Car Database Web App</h3>
                 </div>
             
                 {/* Only this moves on hover */}
@@ -116,7 +116,7 @@ export default function Portfolio() {
               <div className="relative">
               {/* Floating title stays still */}
                 <div className="absolute -top-6 w-full text-center z-10">
-                  <h3 className="text-white text-l font-mono">Bank Data Analysis</h3>
+                  <h3 className="text-white text-l font-mono">Bank Customer Data Analysis</h3>
                 </div>
             
                 {/* Only this moves on hover */}
