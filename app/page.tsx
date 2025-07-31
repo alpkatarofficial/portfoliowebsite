@@ -1,5 +1,4 @@
 "use client"
-
 import Image from "next/image"
 import Link from "next/link"
 import { Menu, Github, Linkedin } from "lucide-react"
@@ -60,12 +59,8 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
-
-        
         {/* Right Content */}
         <div className="space-y-1">
-
-
           {/* Projects Section */}
           <section>
             <div className="flex justify-between items-center mb-10">
@@ -144,9 +139,6 @@ export default function Portfolio() {
               </div>
             </div>
           </section>
-
-          
-
           {/* Stack Section */}
           <section className="bg-white rounded-xl p-6 text-black">
             <div className="flex justify-between items-start mb-4">
@@ -194,9 +186,6 @@ export default function Portfolio() {
               </div>
             </div>
           </section>
-     
-
-            {/* Happy Clients Section */}
           </div>
         </div>
       </div>
