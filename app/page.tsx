@@ -194,14 +194,8 @@ export default function Portfolio() {
           </section>
      
 
-          {/* Contact and Clients Sections */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {/* Contact Section */}
-            <section className="relative overflow-hidden rounded-xl bg-gradient-to-br from-gray-900 to-gray-800 p-6">
-            </section>
+         
 
-            {/* Happy Clients Section */}
-          </div>
         </div>
       </div>
     </div>
