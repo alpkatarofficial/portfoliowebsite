@@ -20,7 +20,7 @@ export default function Portfolio() {
               height={300}
               className="rounded-md"
             />
-            <h1 className="text-3xl font-extrabold text-center bg-gradient-to-r from-gray-300 via-gray-100 to-gray-400 bg-clip-text text-transparent drop-shadow-lg">
+            <h1 className="text-3xl font-extrabold text-center bg-gradient-to-r from-gray-200 via-slate-300 to-gray-400 bg-clip-text text-transparent drop-shadow-lg">
               SÜLEYMAN ALP KATAR
             </h1>
             <p className="text-lg text-center text-blue-200 font-semibold">- Web Specialist Assistant</p>
@@ -43,6 +43,11 @@ export default function Portfolio() {
               <Button variant="ghost" size="icon" asChild>
                 <Link href="https://www.linkedin.com/in/s-alp-katar/">
                   <Linkedin className="w-10 h-10" />
+                </Link>
+              </Button>
+              <Button variant="ghost" size="icon" asChild>
+                <Link href="https://github.com/alpkatarofficial">
+                  <Github className="w-10 h-10" />
                 </Link>
               </Button>
               <Button variant="ghost" size="icon" asChild>
