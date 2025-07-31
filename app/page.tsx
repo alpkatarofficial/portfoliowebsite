@@ -198,10 +198,6 @@ export default function Portfolio() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {/* Contact Section */}
             <section className="relative overflow-hidden rounded-xl bg-gradient-to-br from-gray-900 to-gray-800 p-6">
-              <h2 className="text-2xl font-mono mb-4">Contact Me</h2>
-              <p className="text-white-500">Email: alpkatar@linkdijital.com.tr</p>
-              <p className="text-white-500">LinkedIn: linkedin.com/in/s-alp-katar/</p>
-              <p className="text-white-500">Github: https://github.com/alpkatarofficial</p>
             </section>
 
             {/* Happy Clients Section */}
