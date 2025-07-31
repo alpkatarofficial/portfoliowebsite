@@ -36,12 +36,11 @@ export default function Portfolio() {
               data around me, statistics and curiosity, I also got into the analyzing data and extracting meaningful results from them, uplifting the enterprise value in wherever I work at.
             </p>
           </div>
-          <div>
-            <h2 className="text-2xl font-mono">Contact Me</h2>
-          </div>
-
           {/* Social Links */}
           <div className="flex flex-col items-center space-y-4">
+            <div>
+              <h2 className="text-2xl font-mono">Contact Me</h2>
+            </div>
             <div className="flex gap-4">
               <Button variant="ghost" size="icon" asChild>
                 <Link href="https://www.linkedin.com/in/s-alp-katar/">
